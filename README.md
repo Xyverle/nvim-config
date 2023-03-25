@@ -1,4 +1,4 @@
-# requirements
+# Requirements
 you need tar curl clang ripgrep and a nerd font
 
 I recommend Fira Code
