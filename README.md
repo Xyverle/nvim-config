@@ -7,3 +7,5 @@ https://github.com/tonsky/FiraCode
 
 Arch:
 ```pacman -S tar curl clang ripgrep ttf-fira-code```
+
+once installed run ```:PackerSync```
