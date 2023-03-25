@@ -1,7 +1,7 @@
 # Requirements
 neovim v0.8.3
 
-you need tar curl clang ripgrep and a nerd font
+you need tar, curl, clang, ripgrep, a nerd font and a terminal that supports ligatures
 
 I recommend Fira Code
 
