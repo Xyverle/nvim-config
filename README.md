@@ -1,5 +1,9 @@
 # requirements
-you need tar curl clang ripgrep and a patched font
+you need tar curl clang ripgrep and a nerd font
+
+I recommend Fira Code
+
+https://github.com/tonsky/FiraCode
 
 Arch:
-```pacman -S tar curl clang ripgrep```
+```pacman -S tar curl clang ripgrep ttf-fira-code```
