@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
     use 'olimorris/onedarkpro.nvim'
     use 'm4xshen/autoclose.nvim'
     use 'numToStr/Comment.nvim'
+    use 'lukas-reineke/indent-blankline.nvim'
     use {
         'williamboman/mason.nvim',
         'williamboman/mason-lspconfig.nvim',
