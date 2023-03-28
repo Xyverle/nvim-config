@@ -9,6 +9,7 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     use 'olimorris/onedarkpro.nvim'
     use 'm4xshen/autoclose.nvim'
+    use 'numToStr/Comment.nvim'
     use {
         'williamboman/mason.nvim',
         'williamboman/mason-lspconfig.nvim',

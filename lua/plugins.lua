@@ -5,11 +5,11 @@ require("mason-lspconfig").setup()
 require("dashboard").setup{}
 require("luatab").setup{}
 require("autoclose").setup()
+require('Comment').setup()
 --LSP
 require("lspconfig").rust_analyzer.setup{}
 
 options = { theme = "onedark" }
-vim.api.nvim_command("autocmd VimEnter * :wincmd p")
 vim.api.nvim_create_autocmd("BufEnter", {
   group = vim.api.nvim_create_augroup("NvimTreeClose", {clear = true}),
   pattern = "NvimTree_*",
