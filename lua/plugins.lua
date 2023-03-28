@@ -8,6 +8,8 @@ require("autoclose").setup()
 require('Comment').setup()
 --LSP
 require("lspconfig").rust_analyzer.setup{}
+require('lsp-zero').preset('recommended')
+require('lsp-zero').setup()
 
 options = { theme = "onedark" }
 vim.api.nvim_create_autocmd("BufEnter", {

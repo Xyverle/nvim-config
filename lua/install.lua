@@ -15,5 +15,9 @@ return require('packer').startup(function(use)
         'williamboman/mason-lspconfig.nvim',
         'neovim/nvim-lspconfig',
     }
+    use { 'VonHeikemen/lsp-zero.nvim', requires = {
+            {'hrsh7th/nvim-cmp'},
+            {'hrsh7th/cmp-nvim-lsp'},
+            {'L3MON4D3/LuaSnip'},
+    } }
 end)
---use { 'neoclide/coc.nvim', branch = 'release' }

@@ -1,10 +1,13 @@
-vim.g.mapleader = ","
-vim.g.maplocalleader = ","
 local opts = { noremap = true, silent = true}
 local keymap = vim.api.nvim_set_keymap
+vim.g.mapleader = ","
+vim.g.maplocalleader = ","
 keymap("n", "<Leader>f", ":Telescope find_files<CR>", opts)
 keymap("n", "<Leader>e", ":NvimTreeToggle<CR>", opts)
-keymap("n", "<Leader>n", ":tabnew<CR>", opts)
+keymap("n", "<Leader>n", ":tabnew<CR>:Telescope find_files<CR>", opts)
+keymap("n", "<Leader>h", ":split<CR>", opts)
+keymap("n", "<Leader>v", ":vsplit<CR>", opts)
+keymap("n", "<Leader>s", ":wqa<CR>", opts)
 keymap("n", "<Tab>", ":tabn<CR>", opts)
 keymap("n", "<Tab>", ":tabp<CR>", opts)
 
