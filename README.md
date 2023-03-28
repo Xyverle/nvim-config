@@ -10,4 +10,10 @@ https://github.com/tonsky/FiraCode
 Arch:
 ```pacman -S tar curl clang ripgrep ttf-fira-code```
 
+Install Packer:
+```
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+
 once installed run ```:PackerSync```
