@@ -12,4 +12,13 @@ require("lspconfig").rust_analyzer.setup{}
 require('lsp-zero').preset('recommended')
 require('lsp-zero').setup()
 
+local cmp = require('cmp')
+
+cmp.setup({
+  mapping = {
+    ['<CR>'] = cmp.mapping.confirm({select = false}),
+  }
+})
+
+
 options = { theme = "onedark" }
