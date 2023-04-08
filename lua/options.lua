@@ -15,7 +15,6 @@ vim.opt.backspace = "indent,eol,start"
 vim.opt.clipboard:append("unnamedplus")
 vim.opt.splitright = true
 vim.opt.splitbelow = true
-vim.opt.iskeyword:append("-") 
 vim.cmd("colorscheme onedark")
 vim.api.nvim_command('autocmd VimEnter * :set laststatus=3')
 vim.api.nvim_command('autocmd VimEnter * :set relativenumber number')
